@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Example</title>
+    <style>
+        * {
+            margin : 0px auto;
+        }
+        main{
+
+            width : 95%;
+        }
+        header {
+            background-color: #636161;
+            height: 50px;
+            color: whitesmoke;
+        }
+        header{
+            text-align: center;
+            padding: 15px 20px;
+        }
+        nav {
+            background-color: bisque;
+        }
+        nav ul{
+            margin:0px;
+            padding: 0px;
+            list-style: None; /*To remove bullets */
+        }
+        nav ul li {
+                display: inline;
+        }
+        nav ul li a{
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 20px ;
+        }
+        nav ul li a:hover{
+            background-color: #a29dad;
+            color: whitesmoke
+        }
+        section {
+            display: flex;
+        }
+        .lsidebar {
+            width: 20%;
+            height: 500px;
+            background-color: rgb(27, 113, 116);
+        }
+        article {
+            width: 60%;
+            height: 500px;
+            background-color: #8a70c2;
+        }
+        .rsidebar {
+            width: 20%;
+            height: 500px;
+            background-color: rgb(191, 209, 209);
+        }
+        footer {
+            text-align: center;
+            background-color: crimson;
+            color: whitesmoke;
+
+        }
+        footer p{
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header> 
+            <h1>CSS Practice </h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href = "#"> Home </a></li>
+                <li><a href = "#"> About </a></li>
+                <li><a href = "#"> Service </a></li>
+                <li><a href = "#"> Gallery </a></li>
+                <li><a href = "#"> Contact </a></li>
+            </ul>
+        </nav>
+        <section>
+            <aside class="lsidebar"> Left Sidebar </aside>
+            <article> Container </article>
+            <aside class="rsidebar">Right Sidebar </aside>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2024.All rights reserved</p>
+        </footer>
+    </main>
+</body>
+</html>
