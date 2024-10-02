@@ -1,0 +1,23 @@
+:root {
+    --cl-white: hsl(0, 0%, 88%);
+    --cl-black: hsl(0, 0%, 0%);
+    --cl-grey-light: hsl(0, 0%, 98%);
+    --cl-grey: #7f7f7f;
+
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondry: 'Orbitron', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
