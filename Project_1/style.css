@@ -21,3 +21,24 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
